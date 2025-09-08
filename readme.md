@@ -23,10 +23,11 @@ Abaixo você encontra uma lista de projetos Flutter desenvolvidos, com descriç�
   </p>
   <img src="./readme/quizz/image 1.png" alt="Quizz" height="180">
   
-  <a href="https://github.com/duck-developer/Projects_flutter/tree/main/quizz">
+ 
+</div>
+ <a href="https://github.com/duck-developer/Projects_flutter/tree/main/quizz">
     <img src="https://img.shields.io/badge/GitHub-Acessar_Projeto-181717?style=for-the-badge&logo=github" alt="GitHub Link">
   </a>
-</div>
 
 ---
 
