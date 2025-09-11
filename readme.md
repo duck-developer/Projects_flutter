@@ -21,7 +21,7 @@ Abaixo você encontra uma lista de projetos Flutter desenvolvidos, com descriç�
   <p style="max-width:600px; text-align:center;">
     Projeto de quiz em Flutter, com perguntas interativas, sistema de pontuação e feedback visual para respostas corretas e incorretas.
   </p>
-  <img src="./readme/quizz/image 1.png" alt="Quizz" height="180">
+  <img src="./readme/quizz/image 1.png" alt="Quizz" height="240">
   
  
 </div>
