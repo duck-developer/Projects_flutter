@@ -7,8 +7,6 @@
 
 [![License](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE)
 
----
-
 # 🚀 Projetos Disponíveis
 
 Abaixo você encontra uma lista de projetos Flutter desenvolvidos, com descrição, imagens e links diretos para os repositórios.
