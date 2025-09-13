@@ -5,7 +5,7 @@ import 'package:tete/resposta.dart';
 class Questionario extends StatelessWidget {
   final List<Map<String, Object>> perguntas;
   final int perguntaSelecionada;
-  final void Function() responder;
+  final void Function(int) responder;
 
   Questionario({
     required this.perguntas,
@@ -19,14 +19,20 @@ class Questionario extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<String> respostas = temPerguntaSelecionada
-        ? perguntas[perguntaSelecionada]["resposta"] as List<String>
+    List<Map<String, Object>> respostas = temPerguntaSelecionada
+        ? perguntas[perguntaSelecionada]["resposta"]
+              as List<Map<String, Object>>
         : [];
     return Column(
       children: [
         Questao(perguntas[perguntaSelecionada]["texto"] as String),
 
-        ...respostas.map((e) => Resposta(e, responder)).toList(),
+        ...respostas.map((resp) {
+          return Resposta(
+            resp["texto"] as String,
+            () => responder(resp["pontuacao"] as int),
+          );
+        }).toList(),
       ],
     );
   }

@@ -19,28 +19,17 @@ Abaixo você encontra uma lista de projetos Flutter desenvolvidos, com descriç�
 
 <div align="center" style="display:flex; flex-direction:column; align-items:center; gap:10px;">
   <p style="max-width:600px; text-align:center;">
-    Projeto de quiz em Flutter, com perguntas interativas, sistema de pontuação e feedback visual para respostas corretas e incorretas.
+    Projeto de quiz em Flutter, com perguntas interativas, sistema de pontuação.
   </p>
-  <img src="./readme/quizz/image 1.png" alt="Quizz" height="240">
-  
- 
+  <div>
+    <img src="./quizz/readme/image 1.png" alt="Quizz" height="240">
+    <img src="./quizz/readme/image 2.png" alt="Quizz" height="240">
+      <img src="./quizz/readme/image 3.png" alt="Quizz" height="240">
+  </div>
+
 </div>
 <div  align="center">
  <a href="https://github.com/duck-developer/Projects_flutter/tree/main/quizz">
-    <img src="https://img.shields.io/badge/GitHub-Acessar_Projeto-181717?style=for-the-badge&logo=github" alt="GitHub Link">
-  </a>
-</div>
-
----
-
-### 🧩 Projeto 2 - Nome do Projeto
-
-<div align="center" style="display:flex; flex-direction:column; align-items:center; gap:10px;">
-  <p style="max-width:600px; text-align:center;">
-    Descrição resumida do segundo projeto. Destaque para funcionalidades, diferencial ou objetivo principal.
-  </p>
-  <img src="./readme/projeto2/image1.png" alt="Projeto 2" height="180">
-  <a href="https://github.com/duck-developer/Projects_flutter/tree/main/projeto2">
     <img src="https://img.shields.io/badge/GitHub-Acessar_Projeto-181717?style=for-the-badge&logo=github" alt="GitHub Link">
   </a>
 </div>
