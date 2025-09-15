@@ -34,6 +34,25 @@ Abaixo você encontra uma lista de projetos Flutter desenvolvidos, com descriç�
 
 ---
 
+### 💰 Expenses
+
+<div align="center" style="display:flex; flex-direction:column; align-items:center; gap:10px;">
+  <p style="max-width:600px; text-align:center;">
+    Expenses é um aplicativo simples para registrar de despesas. O usuário pode adicionar um gasto fornecendo título e valor, ver a lista de transações cadastradas e acompanhar um gráfico que resume os gastos.
+  </p>
+  <div>
+
+  </div>
+
+</div>
+<div  align="center">
+ <a href="">
+    <img src="https://img.shields.io/badge/GitHub-Acessar_Projeto-181717?style=for-the-badge&logo=github" alt="GitHub Link">
+  </a>
+</div>
+
+---
+
 # 👤 Autor
 
 ## @Duck.Web
