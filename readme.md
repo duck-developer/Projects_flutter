@@ -67,7 +67,9 @@ Meals é um aplicativo simples e prático para gerenciamento de receitas culiná
 
 </div>
 <div  align="center">
-
+ <a href="https://github.com/duck-developer/Projects_flutter/tree/main/meals">
+    <img src="https://img.shields.io/badge/GitHub-Acessar_Projeto-181717?style=for-the-badge&logo=github" alt="GitHub Link">
+  </a>
 </div>
 
 ---
