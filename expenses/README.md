@@ -1,16 +1,42 @@
-# expenses
+<p align="center">
+   <a href="https://github.com/duck-developer">
+      <img style="border-radius: 50%; overflow: hidden; width: 140px; height: 140px;" src="../readme/duck.web.png" alt="@Duck.Web" >
+   </a>
+   <h1 align="center">Expenses</h1>
+</p>
 
-A new Flutter project.
+[![License](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+# Sobre o Projeto
 
-A few resources to get you started if this is your first Flutter project:
+Expenses é um aplicativo simples e funcional para controle financeiro pessoal. O usuário pode registrar suas despesas de forma rápida e prática, fornecendo informações como título e valor do gasto
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Layout
+
+<p align="left">
+<img src="./readme/image 1.jpeg" alt="@duck_web" height="180">
+<img src="./readme/image 2.jpeg" alt="@duck_web" height="180">
+<img src="./readme/image 3.jpeg" alt="@duck_web" height="180">
+</p>
+
+---
+
+# Tecnologia Utilizada
+
+- Flutter
+
+---
+
+# Autor
+
+## @Duck.Web
+
+<p align="left">
+   <a href="https://www.instagram.com/duck.web/" target="_blank">
+      <img align="center" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="30" width="120"/>
+   </a>
+</p>
