@@ -61,8 +61,13 @@ Abaixo você encontra uma lista de projetos Flutter desenvolvidos, com descriç�
   <p style="max-width:600px; text-align:center;">
 Meals é um aplicativo simples e prático para gerenciamento de receitas culinárias. O usuário pode explorar diferentes pratos, visualizar detalhes de cada receita (ingredientes, modo de preparo, tempo de preparo, categoria) e organizar suas receitas favoritas em listas personalizadas.
   </p>
-  <div>
-
+    <div>
+    <img src="./meals/readme/image 01.jpg" alt="Quizz" height="240">
+    <img src="./meals/readme/image 02.jpg" alt="Quizz" height="240">
+    <img src="./meals/readme/image 03.jpg" alt="Quizz" height="240">
+     <img src="./meals/readme/image 04.jpg" alt="Quizz" height="240">
+      <img src="./meals/readme/image 05.jpg" alt="Quizz" height="240">
+       <img src="./meals/readme/image 06.jpg" alt="Quizz" height="240">
   </div>
 
 </div>
