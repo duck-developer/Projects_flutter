@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tete/banner_component.dart';
 import 'package:tete/questionario.dart';
 import 'package:tete/resultado.dart';
 
@@ -79,6 +80,7 @@ class PerguntaAppState extends State<PerguntaApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Color(0xFF1C1C1C),
         appBarTheme: AppBarTheme(
@@ -90,12 +92,14 @@ class PerguntaAppState extends State<PerguntaApp> {
       home: Scaffold(
         appBar: AppBar(title: Text("Projeto Quizz")),
         body: temPerguntaSelecionada
-            ? Questionario(
-                perguntas: perguntas,
-                perguntaSelecionada: perguntaSelecionada,
-                responder: responder,
+            ? BannerComponent(
+                Questionario(
+                  perguntas: perguntas,
+                  perguntaSelecionada: perguntaSelecionada,
+                  responder: responder,
+                ),
               )
-            : Resultado(pontuacaoTotal, reiniciar),
+            : BannerComponent(Resultado(pontuacaoTotal, reiniciar)),
       ),
     );
   }

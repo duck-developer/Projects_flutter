@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:expenses/components/banner_component.dart';
 import 'package:expenses/components/chart.dart';
 import 'package:expenses/components/transaction_form.dart';
 import 'package:expenses/components/transaction_list.dart';
@@ -15,6 +16,7 @@ class Expenses extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: MyHomePage(),
       theme: ThemeData(primarySwatch: Colors.purple),
     );
@@ -69,42 +71,46 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Despesas pessoais",
-          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
-        ),
-        backgroundColor: Theme.of(context).primaryColorDark,
-        actions: [
-          IconButton(
-            onPressed: () => _openTransactionFormModal(context),
-            icon: Icon(Icons.add, color: Colors.white),
+    return BannerComponent(
+      Scaffold(
+        appBar: AppBar(
+          title: Text(
+            "Despesas pessoais",
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
           ),
-        ],
-      ),
-      body: SingleChildScrollView(
-        child: Container(
-          color: Colors.white,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Chart(_recentTransactions),
-              Column(
-                children: [TransactionList(_transactions, _deleteTransaction)],
-              ),
-            ],
+          backgroundColor: Theme.of(context).primaryColorDark,
+          actions: [
+            IconButton(
+              onPressed: () => _openTransactionFormModal(context),
+              icon: Icon(Icons.add, color: Colors.white),
+            ),
+          ],
+        ),
+        body: SingleChildScrollView(
+          child: Container(
+            color: Colors.white,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Chart(_recentTransactions),
+                Column(
+                  children: [
+                    TransactionList(_transactions, _deleteTransaction),
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
-      ),
 
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => _openTransactionFormModal(context),
-        backgroundColor: Theme.of(context).primaryColorDark,
+        floatingActionButton: FloatingActionButton(
+          onPressed: () => _openTransactionFormModal(context),
+          backgroundColor: Theme.of(context).primaryColorDark,
 
-        child: Icon(Icons.add, color: Colors.white),
+          child: Icon(Icons.add, color: Colors.white),
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
